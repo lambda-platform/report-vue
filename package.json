@@ -1,0 +1,36 @@
+{
+    "name": "@lambda-platform/report",
+    "version": "0.1.0",
+    "description": "Lambda platform - report module",
+    "main": "src/index.js",
+    "repository": "https://github.com/lambda-platform/report-vue",
+    "author": "Lambda Developer Team",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start": "vue-cli-service serve --mode development",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@grapecity/activereports": "^2.1.0",
+        "@grapecity/activereports-vue": "^2.1.0",
+        "axios": "^0.21.1",
+        "vue": "^2.6.11",
+        "vuex": "^3.6.2"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    }
+}
