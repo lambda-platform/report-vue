@@ -1,7 +1,7 @@
 {
-    "name": "@lambda-platform/report",
+    "name": "hi",
     "version": "0.1.0",
-    "description": "Lambda platform - report module",
+    "description": "lambda report module",
     "main": "src/index.js",
     "repository": "https://github.com/lambda-platform/report-vue",
     "author": "Lambda Developer Team",
