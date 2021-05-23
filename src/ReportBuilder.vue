@@ -46,9 +46,6 @@ export default {
     }
 };
 </script>
-<style src="./node_modules/@grapecity/activereports/styles/ar-js-ui.css"></style>
-<style src="./node_modules/@grapecity/activereports/styles/ar-js-designer.css" ></style>
-
 <style>
 #designer-host {
     width: 100%;

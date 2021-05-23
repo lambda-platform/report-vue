@@ -1,34 +1,45 @@
 {
-    "name": "hi",
-    "version": "0.1.0",
-    "description": "lambda report module",
-    "main": "src/index.js",
-    "repository": "https://github.com/lambda-platform/report-vue",
-    "author": "Lambda Developer Team",
-    "license": "MIT",
-    "private": false,
-    "scripts": {
-        "start": "vue-cli-service serve --mode development",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+  "name": "@lambda-platform/report",
+  "version": "0.1.0",
+  "description": "lambda report module",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambda-platform/report-vue.git"
+  },
+  "author": "Lambda Developer Team",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@grapecity/activereports": "^2.1.0",
+    "@grapecity/activereports-vue": "^2.1.0",
+    "@vue/composition-api": "^1.0.0-rc.9"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
     },
-    "dependencies": {
-        "@grapecity/activereports": "^2.1.0",
-        "@grapecity/activereports-vue": "^2.1.0",
-        "@vue/composition-api": "^1.0.0-rc.9"
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
     },
-    "eslintConfig": {
-        "root": true,
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "plugin:vue/essential",
-            "eslint:recommended"
-        ],
-        "parserOptions": {
-            "parser": "babel-eslint"
-        },
-        "rules": {}
-    }
+    "rules": {}
+  },
+  "bugs": {
+    "url": "https://github.com/lambda-platform/report-vue/issues"
+  },
+  "homepage": "https://github.com/lambda-platform/report-vue#readme",
+  "devDependencies": {},
+  "keywords": [
+    "report"
+  ]
 }
